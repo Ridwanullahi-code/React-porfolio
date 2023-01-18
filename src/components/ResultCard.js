@@ -2,7 +2,7 @@ const ResultCard = () => {
   return (
     <div className='relative bg-white p-4 px-2 md:px-6 border rounded-3 space-y-3 shadow'>
           <div className='flex justify-between items-center'>
-              <h1 className="font-bold">Wednesday 4th january 2023</h1>
+              <h1 className="font-bold md:text-lg text-sm">Wednesday 4th january 2023</h1>
               <p style= {{color:"#696969", fontSize:"13px"}}>show in drawn order</p>
           </div>
           <div className='flex justify-between items-center'>

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { DateTime } from "luxon";
 import Navbar from '../components/Navbar'
 import Input from '../components/Input'
@@ -15,7 +15,7 @@ const Home = () => {
     <div className='bg-gray-100 px-2 sm:px-10 md:px-30 lg:px-40'>
         <Input />
         <div className="text-center"> 
-          <h2 className="font-bold text-2xl">Daily prediction (Bug)</h2>
+          <h2 className="font-bold text-2xl p-2">Daily prediction</h2>
           <p>Kindly take from the numbers below and bet on them</p>
           <p><span className="font-bold">warning: </span>Bet responsibly as these are prediction only</p>
         </div>
@@ -41,3 +41,4 @@ const Home = () => {
 }
 
 export default Home
+ 
