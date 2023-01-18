@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+
+* {
+   font-family: "Roboto",
+   Arial,
+   Helvetica,
+   sans-serif;
+}
+
+.pick{
+    background-color:rgb(255, 225, 224);
+    border: 1px solid rgb(223, 197, 196);
+     border-top-left-radius: 4px;
+     border-top-right-radius: 4px;
+}
+.pick .head{
+    background-color:rgb(255, 225, 224);
+    border-bottom: 1px solid rgb(223, 197, 196);
+}
+.bg {
+    background: linear-gradient(to right, rgb(255, 237, 237), rgb(255, 224, 224), rgb(255, 225, 224));
+}
+.hot_picks .list{
+    background-color: white;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.red{border: 7px solid #AC4708}
+.Blue{border: 7px solid #0F3354}
+.deepRed{border: 7px solid  #801812}
+.purple{border: 7px solid #5B1A66}
+.yellow{border: 7px solid #ffa600dd}
+.green{border: 7px solid rgba(0, 128, 0, 0.897)}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.btn-cont{
+    background-color: rgba(255, 255, 255, 0.399);
+}
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+    .width {
+        max-width: 55vw;
+    }
+}
+
+.register{
+    margin:60px auto;
+}
