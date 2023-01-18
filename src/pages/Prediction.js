@@ -16,17 +16,7 @@ const Prediction = () => {
         <Predict list={list}/>
         <Predict list={list}/> 
       </div>
-      <div>
-        <div>
-          <span>{list[rand] }</span>
-          <span>{ }</span>
-        </div>
-        <button className="rounded-md p-2 bg-green-500 text-white 
-        border-green-500 font-bold" type="button">
-          Get two pairs
-        </button>
-        </div>
-      <div className="mx-10  md:mx-40">
+      <div className="mx-10 md:mx-40">
         <Input />
       </div>
     <Footer />
