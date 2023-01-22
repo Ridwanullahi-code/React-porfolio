@@ -4,9 +4,12 @@
 
 @layer components {
     .link {
-        @apply cursor-pointer duration-300  hover:text-green-400 active:text-green-500 font-bold
+        @apply cursor-pointer duration-300  hover:text-blue-500 active:text-green-500
     }
     .draw {
         @apply flex items-center justify-center font-bold md:p-5 p-3 h-0 w-0 md:h-6 md:w-6
+    }
+    .dark {
+        @apply bg-gray-800 text-zinc-50
     }
 }
