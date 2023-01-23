@@ -82,6 +82,12 @@ const Navbar = () => {
                   <NavLink to="/about" className="light:text-gray-700 hover:bg-gray-700 dark:text-white dark:hover:bg-deepGreen hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     About Me
                   </NavLink>
+                  <a className="light:text-gray-700 hover:bg-gray-700 dark:text-white
+                  dark:hover:bg-deepGreen hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    href="https://github.com/Ridwanullahi-code" target="_blank" rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>
