@@ -17,35 +17,35 @@ const About = () => {
             to see a highlight of my open-source work, and the blog for my
             tutorials and more.
             </p>
-          <p className="max-w-xl">
-                          You can contact me by email at <a href="mailto:ridwanullahiajayi01@gmail.com"
-                              className="text-blue-500">
-                              hello</a> or at <a href=""></a> to say hi! I
+            <p className="max-w-xl">
+                You can contact me by email at <a href="mailto:ridwanullahiajayi01@gmail.com"
+                className="text-blue-500" target="_blank" rel="noreferrer">
+                hello</a> or at
+            <a href="https://ridwan-ajayi-portfolio.netlify.app/message"
+            target="_blank" rel="noreferrer" className="text-blue-500"></a> to say hi! I
             always appreciate meeting new people.
-          </p>
+            </p>
         </div>
             <div className="hidden lg:flex xl:flex h-64 w-64
-          dark:bg-gray-900 bg-gray-200 rounded-md p-5">
+            dark:bg-gray-900 bg-gray-200 rounded-md p-5">
             <img src={image} className="w-full" />
+            </div>
         </div>
-             
-        </div>
-        
         <div className="space-y-5">
-          <h1 className="font-bold text-2xl text-[30px]">Random facts</h1>
-          <hr className="max-w-xl"/>
-                  <ul className="space-y-2 list-disc">
-                      <li>Software development student 👨💻 at Microverse</li>
-                      <li>Open-source enthusiast with a love for clean code, pair programming</li>
-                      <li>Remote work aficionado. Eager to be challenged in order to grow</li>
-                      <li>A second-year student studying Information Technology at Federal University of Technology Akure.</li>
-          </ul>
+        <h1 className="font-bold text-2xl text-[30px]">Random facts</h1>
+        <hr className="max-w-xl"/>
+        <ul className="space-y-2 list-disc">
+            <li>Software development student 👨💻 at Microverse</li>
+            <li>Open-source enthusiast with a love for clean code, pair programming</li>
+            <li>Remote work aficionado. Eager to be challenged in order to grow</li>
+            <li>A second-year student studying Information Technology at Federal University of Technology Akure.</li>
+        </ul>
         </div>
-         <div className="block lg:hidden xl:hidden h-38 w-38 dark:bg-gray-900 bg-gray-200 p-10 rounded-md">
+        <div className="block lg:hidden xl:hidden h-38 w-38 dark:bg-gray-900 bg-gray-200 p-10 rounded-md">
             <img src={image} className="w-full" />
         </div>
-      </div>
-      <Footer />
+    </div>
+    <Footer />
     </>
   );
 };
