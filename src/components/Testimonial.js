@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 const Testimonial = ({image, alt, message, name, prof}) => {
   return (
-    <div className="flex flex-col justify-center items-center max-w-sm 
-      bg-gray-200 dark:bg-gray-900 overflow-hidden shadow-lg p-3 rounded-md h-96">
+    <div className="flex flex-col justify-center items-center
+      bg-gray-200 dark:bg-gray-900 overflow-hidden shadow-lg p-3 rounded-md">
     <img className="rounded-full w-16 h-16 border-2 border-white" src={image} alt={alt} />
       <div className="py-4 text-center px-4">
         <blockquote className="text-gray-700 dark:text-gray-300">
           <i className="fa-solid fa-quote-left mx-1 dark:text-deepGreen" />
-            <span className="text-sm">{message}</span>
+            <p className="text-sm line-clamp-6">{message}</p>
           <i className="fa-solid fa-quote-right mx-1 dark:text-deepGreen" />
         </blockquote>
        

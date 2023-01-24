@@ -44,8 +44,8 @@ const Footer = () => {
           <NavLink className="link text-sm" to="/about">About Me</NavLink>
           <NavLink className="link text-sm" to="/message">Contact Me</NavLink>
           <NavLink className="link text-sm" to="/message">Services</NavLink>
-          <NavLink className="link text-sm" to="/message">Projects</NavLink>
-          <NavLink className="link text-sm" to="/message">FAQs</NavLink>
+          <NavLink className="link text-sm" to="/projects">Projects</NavLink>
+          <NavLink className="link text-sm" to="/faqs">FAQs</NavLink>
         </div>
       </div>
       <form className='flex items-center flex-col md:space-y-2'>

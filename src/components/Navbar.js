@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import useDarkSide from "./useDarkSlide";
 
-const Navbar = () => {
+const Navbar = ({color}) => {
     const [mobile, setMobile] = useState(true);
     const [colorTheme, setTheme] = useDarkSide();
     const [darkMode, setDarkMode] = useState(colorTheme === "light" ? true : false);
@@ -14,7 +15,7 @@ const Navbar = () => {
   
   return (
     <header>
-      <nav className="bg-gray-200 dark:bg-gray-800">
+      <nav className={`bg-gray-200 dark:${color}`}>
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -71,7 +72,7 @@ const Navbar = () => {
                     Home
                   </NavLink>
 
-                  <NavLink className="light:text-gray-700 hover:bg-gray-700 dark:text-white dark:hover:bg-deepGreen hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <NavLink to="/projects" className="light:text-gray-700 hover:bg-gray-700 dark:text-white dark:hover:bg-deepGreen hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Projects
                   </NavLink>
 
@@ -137,13 +138,14 @@ const Navbar = () => {
         <div className={mobile && "hidden"} id="mobile-menu">
           <div className="space-y-1 px-2 pt-2 pb-3">
             <NavLink
+              to="/"
               className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
               aria-current="page"
             >
               Home
             </NavLink>
             <NavLink
-              to="/"
+              to="/projects"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Projects
@@ -158,6 +160,12 @@ const Navbar = () => {
             >
                 About Me
             </NavLink>
+            <a
+               href="https://github.com/Ridwanullahi-code" target="_blank" rel="noreferrer"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            >
+                GitHub
+            </a>
           </div>
         </div>
       </nav>
@@ -165,4 +173,7 @@ const Navbar = () => {
   );
 };
 
+Navbar.propTypes = {
+    color: PropTypes.string.isRequired,
+};
 export default Navbar;

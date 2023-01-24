@@ -13,7 +13,7 @@ export const feedback = [
     {
         image: img2,
         alt: 'Celia Micheal',
-        message: "I appreciated getting a call to get the work done earlier than my scheduled appointment. Abass was great. He was able to fix the problem, but also explained what he  was doing, what options were available, and costs for different fixes if the problem recurred.",
+        message: "I appreciated getting a call to get the work done earlier than my scheduled appointment. Abass was great. He was able to fix the problem, but also explained what he  was doing, what options were available",
         name: 'Celia Micheal',
         prof:'Secretary'
     },
