@@ -7,7 +7,8 @@ const About = () => {
   return (
     <>
       <Navbar color="bg-gray-900" />
-      <div className="bg-white dark:bg-gray-800 h-full flex flex-col  py-40 space-y-6 md:px-10 lg:px-40">
+      <div className="bg-white dark:bg-gray-800 h-full flex flex-col  py-40 px-5
+      space-y-6 md:px-10 lg:px-40">
         <div className="flex flex-col justify-between space-y-6 lg:flex-row">
             <div className="space-y-5 ">
             <h1 className="font-bold text-2xl text-[33px]">About me</h1>
@@ -39,7 +40,8 @@ const About = () => {
             <li>A second-year student studying Information Technology at Federal University of Technology Akure.</li>
         </ul>
         </div>
-        <div className="block lg:hidden xl:hidden h-38 w-38 dark:bg-gray-900 bg-gray-200 p-10 rounded-md">
+        <div className="block lg:hidden xl:hidden h-38 w-38 dark:bg-gray-900 
+        bg-gray-200 py-10 px-5 rounded-md">
             <img src={image} className="w-full" />
         </div>
     </div>

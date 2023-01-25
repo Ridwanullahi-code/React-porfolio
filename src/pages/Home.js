@@ -68,7 +68,7 @@ const Home = () => {
             border-gray-300 dark:border-gray-700 hover:opacity-90 dark:border bg-white
              dark:bg-gray-700  justify-center
             hover:text-black dark:hover:text-white  py-2 w-full md:w-full/2 text-sm font-medium
-             rounded-md">
+             rounded-md"  to="/projects">
             View all
           </NavLink>
       </div>
