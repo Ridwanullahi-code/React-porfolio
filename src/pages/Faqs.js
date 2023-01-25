@@ -15,7 +15,7 @@ const Faqs = () => {
     return (
         <div>
             <Navbar color="bg-gray-900" />
-            <div className="bg-white dark:bg-gray-800 p-10 dark:text-white
+            <div className="bg-white dark:bg-gray-800 py-10 px-5 md:px-10 dark:text-white
              text-black flex flex-col space-y-4">
                 <h1 className="text-center font-bold text-[20px] md:text-[25px]">Frequently Asked Questions</h1>
                 <Faq

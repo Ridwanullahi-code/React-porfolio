@@ -16,7 +16,7 @@ const Home = () => {
       <div className="mx-auto dark:bg-gray-900 py-16 md:px-16 px-5"> 
         <Banner />
       </div>
-      <div className="py-5 light:bg-white dark:black  rounded-md my-5 md:px-20 px-10">
+      <div className="py-5 light:bg-white dark:black  rounded-md my-5 md:px-20 px-5">
         <div className='text-center flex flex-col space-y-1 my-6'>
           <h2 className="text-deepBlue font-bold dark:text-gray-100">What will do</h2>
           <p className=" max-w-sm md:max-w-lg mx-auto font-tin text-sm  py-2
@@ -43,7 +43,7 @@ const Home = () => {
         />
       </div>
       </div>
-      <div className="light:bg-white dark:black space-y-3 py-5 md:px-20 px-10">
+      <div className="light:bg-white dark:black space-y-3 py-5 md:px-20 px-5">
         <div className='text-center flex flex-col space-y-1 my-6'>
           <h2 className="font-bold text-deepBlue dark:text-white">Recent Projects</h2>
           <p className=" max-w-sm md:max-w-lg mx-auto font-tin text-sm text-gray-800 dark:text-gray-400">We place huge value on strong relationships and have seen the benefit they
@@ -72,7 +72,7 @@ const Home = () => {
             View all
           </NavLink>
       </div>
-      <div className="py-5 light:bg-white dark:black  rounded-md my-5 md:px-20 px-10">
+      <div className="py-5 light:bg-white dark:black  rounded-md my-5 md:px-20 px-5">
         <div className='text-center flex flex-col space-y-2 my-6'>
           <h2 className="text-gray-800 font-bold dark:text-gray-200">TESTIMONIALS</h2>
           <p className="font-bold text-3xl md:text-4xl text-deepBlue dark:text-[#36d8d6e0]">What clients say</p>
