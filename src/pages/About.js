@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import image from '../logo/my-photo.jpeg'
@@ -20,10 +21,7 @@ const About = () => {
             <p className="max-w-xl">
                 You can contact me by email at <a href="mailto:ridwanullahiajayi01@gmail.com"
                 className="text-blue-500" target="_blank" rel="noreferrer">
-                hello</a> or at
-            <a href="https://ridwan-ajayi-portfolio.netlify.app/message"
-            target="_blank" rel="noreferrer" className="text-blue-500"></a> to say hi! I
-            always appreciate meeting new people.
+                hello</a> or to say hi at <NavLink className="text-sm text-blue-500" to="/message">contact</NavLink>. I always appreciate meeting new people.
             </p>
         </div>
             <div className="hidden lg:flex xl:flex h-64 w-64
@@ -34,7 +32,7 @@ const About = () => {
         <div className="space-y-5">
         <h1 className="font-bold text-2xl text-[30px]">Random facts</h1>
         <hr className="max-w-xl"/>
-        <ul className="space-y-2 list-disc">
+        <ul className="space-y-2 list-disc px-5">
             <li>Software development student 👨💻 at Microverse</li>
             <li>Open-source enthusiast with a love for clean code, pair programming</li>
             <li>Remote work aficionado. Eager to be challenged in order to grow</li>
