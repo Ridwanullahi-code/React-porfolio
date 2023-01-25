@@ -1,4 +1,5 @@
 import React from "react";
+import resume from '../logo/Ajayi-Ridwan.pdf'
 
 const Banner = () => {
   return (
@@ -14,11 +15,15 @@ const Banner = () => {
         don’t hestiate to contact me.
       </p>
       <div className="flex space-x-7">
-        <button type="button" className="light:text-gray-700 dark:text-gray-100 border cursor-pointer
+        <a type="button" className="light:text-gray-700 dark:text-gray-100 border cursor-pointer
             border-gray-300 hover:opacity-90 dark:border dark:border-deepGreen bg-white dark:bg-deepGreen
-            hover:text-black dark:hover:text-white dark:active:bg-[#014f4f] dark:active:border-[#014f4f] px-3 py-1 text-sm font-medium rounded-md">
+            hover:text-black dark:hover:text-white dark:active:bg-[#014f4f] dark:active:border-[#014f4f]
+            px-3 py-1 text-sm font-medium rounded-md"
+          href={resume}
+          target="_blank" rel="noreferrer" download
+        >
           Download Resume
-        </button>
+        </a>
         <button type="button" className="light:text-gray-700 dark:text-gray-100 border cursor-pointer
             border-gray-300 hover:opacity-90 dark:border-[#014f4f] dark:active:bg-[#014f4f] dark:active:border-[#014f4f] bg-white dark:bg-deepGreen
             hover:text-black dark:hover:text-white px-3 py-1 text-sm font-medium rounded-md">
