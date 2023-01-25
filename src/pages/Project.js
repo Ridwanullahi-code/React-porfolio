@@ -9,7 +9,7 @@ const Project = () => {
     <div>
       <Navbar color="bg-gray-900" />
       <div className="bg-white  dark:bg-gray-800">
-        <div className="px-10 py-5">
+        <div className="px-5 py-5">
         <h1 className="text-black font-bold text-[25px] dark:text-white">Frontend Development</h1>
           <div
             className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
@@ -27,7 +27,7 @@ const Project = () => {
             ))}
           </div>
               </div>
-        <div className="py-5 px-10">
+        <div className="py-5 px-5">
            <h1 className="text-black font-bold text-[25px] dark:text-white">Data Analytics</h1>
           <div
             className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
