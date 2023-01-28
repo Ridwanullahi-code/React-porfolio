@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { service } from "../functions/pictures";
+import { projects } from "../functions/projects";
 
 const Project = () => {
   return (
@@ -14,7 +14,7 @@ const Project = () => {
           <div
             className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
             my-8 gap-y-5  light:bg-white dark:black justify-center items-center ">         
-            {service.map((data, index) => (
+            {projects[0].map((data, index) => (
               <Card
                 key={index}
                 link={data.link}
@@ -32,7 +32,7 @@ const Project = () => {
           <div
             className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
             my-8 gap-y-5  light:bg-white dark:black justify-center items-center ">         
-            {service.map((data, index) => (
+            {projects[1].map((data, index) => (
               <Card
                 key={index}
                 link={data.link}
@@ -50,7 +50,7 @@ const Project = () => {
           <div
             className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
             my-8 gap-y-5  light:bg-white dark:black justify-center items-center ">         
-            {service.map((data, index) => (
+            {projects[2].map((data, index) => (
               <Card
                 key={index}
                 link={data.link}

@@ -18,27 +18,27 @@ const Home = () => {
       </div>
       <div className="py-5 light:bg-white dark:black  rounded-md my-5 md:px-20 px-5">
         <div className='text-center flex flex-col space-y-1 my-6'>
-          <h2 className="text-deepBlue font-bold dark:text-gray-100">What will do</h2>
+          <h2 className="text-deepBlue font-bold dark:text-gray-100">What I do</h2>
           <p className=" max-w-sm md:max-w-lg mx-auto font-tin text-sm  py-2
-            dark:text-gray-400">We place huge value on strong relationships and have seen the benefit they
-            bring to our business. Customer feedback is vital in helping us to get it right
+            dark:text-gray-400"> If you need any help with your software development projects,
+            give me a call. I offer variety of software development services
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
             my-8 gap-y-10 light:bg-white dark:black">
         <Service
           icon="fa-solid fa-code-merge dark:text-deepGreen text-[25px]"
-          summary="Web development service for everybody"
+          summary="I can help you design and develop a website that meets your exact needs"
           skill="Web Development"
         />
         <Service
           icon="fa-solid fa-laptop-code dark:text-deepGreen text-[25px]"
-          summary="Web development service for everybody"
+          summary="I can help you gain insights and make informed decisions based on your data."
           skill="Data Analytics"
         />
         <Service
           icon="fa-brands fa-codepen dark:text-deepGreen text-[25px]"
-          summary="Web development service for everybody"
+          summary="I can help you design, develop, and deploy models that can be used to predict, classify, and optimize data. "
           skill="Machine Learning"
         />
       </div>

@@ -77,7 +77,7 @@ const Navbar = ({color}) => {
                   </NavLink>
 
                   <NavLink className="light:text-gray-700 hover:bg-gray-700 dark:text-white dark:hover:bg-deepGreen hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                    Services
+                    Blog
                   </NavLink>
 
                   <NavLink to="/about" className="light:text-gray-700 hover:bg-gray-700 dark:text-white dark:hover:bg-deepGreen hover:text-white px-3 py-2 rounded-md text-sm font-medium">
@@ -153,7 +153,7 @@ const Navbar = ({color}) => {
             <NavLink
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
-              Services
+              Blog
             </NavLink>
             <NavLink
               to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"

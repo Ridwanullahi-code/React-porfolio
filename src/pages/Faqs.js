@@ -4,12 +4,11 @@ import Faq from "react-faq-component";
 import { data } from "../functions/data";
 
 const Faqs = () => {
-    const theme = localStorage.theme;
     const styles = {
         bgColor: 'dark:bg-gray-800',
-        titleTextColor: `${theme === 'light' ? 'black' : 'white'}`,
-        rowTitleColor: `${theme === 'light' ? 'black' : 'white'}`,
-        // rowContentColor: 'grey',
+        titleTextColor:'black' ,
+        rowTitleColor: 'black',
+        rowContentColor: 'grey',
     };
 
     return (

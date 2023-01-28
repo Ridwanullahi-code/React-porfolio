@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="space-y-5">
         <h1 className="font-bold text-2xl text-[30px]">Random facts</h1>
-        <hr className="max-w-xl"/>
+        <hr className="max-w-xl" />
         <ul className="space-y-2 list-disc px-5">
             <li>Software development student 👨💻 at Microverse</li>
             <li>Open-source enthusiast with a love for clean code, pair programming</li>

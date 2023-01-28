@@ -17,8 +17,8 @@ const Footer = () => {
       <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-around items-center py-4'>
         <div className='flex flex-col space-y-1 items-center font-bold'>
           <h2 className='font-bold dark:text-white light:text-gray-900'>Address</h2>
-          <address className='flex items-baseline'>
-            <div className='flex flex-col items-baseline space-y-1 light:text-black dark:text-gray-300 text-[14px] '>
+          <address className='flex items-center'>
+            <div className='flex flex-col items-center space-y-1 light:text-black dark:text-gray-300 text-[14px] '>
               <span className='text-sm flex items-center'>
                 <MapIcon className='dark:text-deepGreen h-4 w-4 mx-1' />
                 Osun Nigeria
@@ -33,7 +33,7 @@ const Footer = () => {
               </span>
               <div className='text-sm flex items-center'>
                   <EnvelopeIcon className='dark:text-deepGreen h-4 w-4 mx-1'/>
-                  <a href="mailto:">@example.gmail.com</a>
+                  <a href="mailto:ridwanullahiajayi01@gmail.com">ridwanullahiajayi01@gmail.com</a>
               </div>
             </div>
           </address>
@@ -43,8 +43,8 @@ const Footer = () => {
         <div className='flex flex-col items-center light:text-black text-[14px] dark:text-gray-300'>
           <NavLink className="link text-sm" to="/about">About Me</NavLink>
           <NavLink className="link text-sm" to="/message">Contact Me</NavLink>
-          <NavLink className="link text-sm" to="/message">Services</NavLink>
           <NavLink className="link text-sm" to="/projects">Projects</NavLink>
+          <NavLink className="link text-sm" to="/message">Blog</NavLink>
           <NavLink className="link text-sm" to="/faqs">FAQs</NavLink>
         </div>
       </div>
