@@ -139,30 +139,30 @@ const Navbar = ({color}) => {
           <div className="space-y-1 px-2 pt-2 pb-3">
             <NavLink
               to="/"
-              className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="bg-gray-900 text-white  hover:text-gray-400 dark:text-white block px-3 py-2 rounded-md text-base font-medium"
               aria-current="page"
             >
               Home
             </NavLink>
             <NavLink
               to="/projects"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="light:text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Projects
             </NavLink>
             <NavLink
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="light:text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Blog
             </NavLink>
             <NavLink
-              to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              to="/about" className="light:text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
                 About Me
             </NavLink>
             <a
                href="https://github.com/Ridwanullahi-code" target="_blank" rel="noreferrer"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="light:text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
                 GitHub
             </a>
