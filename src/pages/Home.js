@@ -46,8 +46,9 @@ const Home = () => {
       <div className="light:bg-white dark:black space-y-3 py-5 md:px-20 px-5">
         <div className='text-center flex flex-col space-y-1 my-6'>
           <h2 className="font-bold text-deepBlue dark:text-white">Recent Projects</h2>
-          <p className=" max-w-sm md:max-w-lg mx-auto font-tin text-sm text-gray-800 dark:text-gray-400">We place huge value on strong relationships and have seen the benefit they
-            bring to our business. Customer feedback is vital in helping us to get it right
+          <p className=" max-w-sm md:max-w-lg mx-auto font-tin text-sm text-gray-800
+           dark:text-gray-400">I place huge value on strong relationships and have seen the benefit they
+            bring to my business. Customer feedback is vital in helping me to get it right
           </p>
         </div>
         <div className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
@@ -76,8 +77,9 @@ const Home = () => {
         <div className='text-center flex flex-col space-y-2 my-6'>
           <h2 className="text-gray-800 font-bold dark:text-gray-200">TESTIMONIALS</h2>
           <p className="font-bold text-3xl md:text-4xl text-deepBlue dark:text-[#36d8d6e0]">What clients say</p>
-          <p className=" max-w-sm md:max-w-lg mx-auto font-tin text-sm text-gray-800 py-2 dark:text-gray-400">We place huge value on strong relationships and have seen the benefit they
-            bring to our business. Customer feedback is vital in helping us to get it right
+          <p className=" max-w-sm md:max-w-lg mx-auto font-tin text-sm text-gray-800 py-2
+           dark:text-gray-400">I place huge value on strong relationships and have seen the benefit they
+            bring to my business. Customer feedback is vital in helping me to get it right
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5

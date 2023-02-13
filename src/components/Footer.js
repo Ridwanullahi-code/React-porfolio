@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
       <div className='flex flex-col items-center justify-center space-y-1 `
       md:border-bottom-gray-200 py-2 connect'>
-        <h2 className='font-bold dark:text-white light:text-gray-900'>Follow Us</h2>
+        <h2 className='font-bold dark:text-white light:text-gray-900'>Follow Me</h2>
         <div className='flex space-x-3'>
           <a href="https://twitter.com/Ridwanullahi22" target="_blank" rel="noreferrer">
             <img className="circle" src={twitter} alt="twitter logo" /></a>

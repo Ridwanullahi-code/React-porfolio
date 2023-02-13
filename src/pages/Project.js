@@ -10,7 +10,8 @@ const Project = () => {
       <Navbar color="bg-gray-900" />
       <div className="bg-white  dark:bg-gray-800">
         <div className="px-5 md:px-10 pt-10 pb-5">
-        <h1 className="text-black font-bold text-[25px] dark:text-white">Frontend Development</h1>
+          <h1 className="text-black font-bold text-[25px]
+         dark:text-white">Frontend Development</h1>
           <div
             className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-5
             my-8 gap-y-5  light:bg-white dark:black justify-center items-center ">         

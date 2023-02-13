@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 const Card = ({ skill, summary, stack, tools, demo, link }) => {
   return (
-    // max-w-sm rounded overflow-hidden py-4 shadow-lg bg-gray-200 dark:bg-gray-900
-     //text-deepBlue dark:text-white
     <div className="flex flex-col bg-gray-200 dark:bg-gray-900 overflow-hidden shadow-lg py-4 rounded-md">
       <div className="px-6">
             <div className="font-bold text-xl mb-2">{skill}</div>

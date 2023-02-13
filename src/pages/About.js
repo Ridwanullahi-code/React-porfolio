@@ -14,7 +14,7 @@ const About = () => {
             <h1 className="font-bold text-2xl text-[33px]">About me</h1>
             <p className="max-w-xl">
             Hey, I am Ridwan! Software developer at microverse and Data Analyst. Welcome to
-            my spot on the web for my projects, tutorials, art, musings, and
+            my spot on the web for my projects, tutorials, and
             anything else I want to show the world. Check out the projects page
             to see a highlight of my open-source work, and the blog for my
             tutorials and more.
@@ -33,7 +33,7 @@ const About = () => {
         <div className="space-y-5">
         <h1 className="font-bold text-2xl text-[30px]">Random facts</h1>
         <hr className="max-w-xl" />
-        <ul className="space-y-2 list-disc px-5">
+        <ul className="space-y-2 list-disc px-5 max-w-xl">
             <li>Software development student 👨💻 at Microverse</li>
             <li>Open-source enthusiast with a love for clean code, pair programming</li>
             <li>Remote work aficionado. Eager to be challenged in order to grow</li>

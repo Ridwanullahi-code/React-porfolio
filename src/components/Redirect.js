@@ -5,7 +5,7 @@ import Footer from './Footer'
 const Redirect = () => {
     return (
         <div>
-            <Navbar />
+            <Navbar color="bg-gray-900" />
             <div className='flex flex-col space-y-3 justify-center items-center py-40 bg-white dark:bg-gray-800'>
                 <i className="fa-sharp fa-solid fa-circle-check text-green-600 text-[30px]" />
                 <h2>Message has successfully sent</h2>
