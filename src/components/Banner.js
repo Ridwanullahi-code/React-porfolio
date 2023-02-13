@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../logo/Ajayi-Ridwan.pdf'
+import resume from '../logo/Ajayi_Ridwan_Resume.pdf'
 
 const Banner = () => {
   return (
