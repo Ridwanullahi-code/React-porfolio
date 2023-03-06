@@ -2,14 +2,34 @@
 [Live Demo](https://ridwan-ajayi-portfolio.netlify.app/)
 
 ## **Description**
-**Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, read a random math-related quote.Built this application with react
+Advanced Portfolio Website is a web-based platform that showcases the skills and work of a professional in a creative and interactive way. 
+The website is designed to provide users with a unique and engaging experience that highlights the individual's strengths and achievements
 
-## **Project Goals:**
-- Use JavaScript Best pratice
+## **Features:**
+
+- Home page: A landing page that provides an overview of the individual's skills, experience, and work.
+- About Me: A page that provides information about the individual's background, education, and career goals.
+- Portfolio: A page that displays the individual's projects, with detailed descriptions and images or videos.
+- Blog: A page that features articles or posts related to the individual's field of expertise.
+- Contact: A page that provides contact information, such as email address, phone number, and social media profiles, for users to get in touch with the individual.
+
+## **Advanced Features:**
+
+- Interactive Animations: Using animations and effects to create a unique and engaging user experience.
+- Custom Graphics: Using custom graphics and illustrations to enhance the website's visual appeal.
+
+## **Project Deliverables:**
+
+- A functional and responsive website that meets the requirements specified in the project description.
+- Source code with proper documentation.
+- User manual and installation instructions.
+
+## **Frontend Technology Stack:**
+- Use JavaScript to build an interactive user interface.
 - Understand the using of [HTML & CSS best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md)
-- Use GitHub flow
+- Use GitHub flow.
 - Use [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/gitflow.md).
-- Setup project with [React](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/lessons/what_is_react.md)
+- Setup project with [React](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/lessons/what_is_react.md) to create a dynamic and interactive user interface.
 - Understand how to use medium-fidelity [wireframes](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/sneak_peek.md) to create a UI
 
 
@@ -75,7 +95,7 @@ I'm full stack software developer, Computer science, and Microverse student.
 ## 🤝 **Contributing**
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ridwanullahi-code/math-magicians/issues/)
+Feel free to check the [issues page](https://github.com/Ridwanullahi-code/React-porfolio/issues/)
 ## **Acknowledgements**
 
 - [Microverse](https://www.microverse.org/)
